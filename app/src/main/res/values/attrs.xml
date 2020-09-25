@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="dimple">
+        <attr name="particle_color" format="color"/>
+        <attr name="particle_radius" format="float"/>
+        <attr name="particle_space" format="float"/>
+        <attr name="dimple_radius_inner" format="dimension"/>
+        <attr name="particle_num" format="integer"/>
+        <attr name="particle_speed" format="integer"/>
+        <attr name="particle_max_offset" format="float"/>
+        <attr name="particle_color_random" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="NiceImageView">
+        <attr name="is_circle" format="boolean" />
+        <attr name="is_cover_src" format="boolean" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_top_left_radius" format="dimension" />
+        <attr name="corner_top_right_radius" format="dimension" />
+        <attr name="corner_bottom_left_radius" format="dimension" />
+        <attr name="corner_bottom_right_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="inner_border_width" format="dimension" />
+        <attr name="inner_border_color" format="color" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+</resources>
